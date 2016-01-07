@@ -1,0 +1,470 @@
+/*Styles for Different Devices*/
+
+/*.........Medium devices (desktops, tablets 768px and up to 1024px)......... */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) { 
+
+/*..........START HEADER........*/	
+	.container {
+		width: auto;
+		clear: both;
+	}
+	header #phone {
+		padding: 0;
+	}
+/*..........END HEADER........*/
+
+/*..........START MAIN AREA........*/
+	.main-info {
+		width: auto;
+		height: auto;
+	}
+	.main-text {
+		display: inline;
+		width: 45%;	
+	}
+	h1#extrabold {
+	    width: 52%;
+	    font-size: 20px;
+	    font-size: 4.5vw;
+	    margin: -5px 0 0 0;
+	    text-align:center;
+	    padding:5px 0 15px 0px
+	}
+	h2#bold {
+	    width: 53%;
+	    font-size: 4.5vw;
+	    display: inline-block;
+	    text-align:center;
+	    margin: 0 auto;
+	}
+	h3 {
+		width: 52%;
+	    font-size: 4.5vw;
+	    display: inline-block;
+	    text-align:center;
+	    line-height: 70px;
+	}
+	.list {
+	    font-size: 2vw;
+	    color: #FFF;
+	    width: 55%;
+	    padding:4% 3% 5% 3%;
+	    list-style-image: url("images/check.png");
+	    line-height: 10;
+	}
+
+	.main-text #amount {
+	    font-size: 7vw;
+	    line-height: 32px;
+	    vertical-align: middle;
+	}
+	#form {
+		width: 35%;
+		height: 320px;
+		display: inline-block;
+		margin: -400px 30px 0px;
+	}
+	#form form input {
+		display:block;
+		width: 80%;
+		height: 35px;
+		padding: 0px 8px;
+		margin: 5px auto;
+		border:1px solid #c0c2c4;
+		border-radius:5px;
+		color: #888;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 14px;	
+	}
+	#form input[type="submit"] {
+		margin:0 auto;
+	}
+	#form input[type="submit"]:hover {
+		margin:0 auto;
+	}
+	#form h1 {
+		font-size: 0.75em;
+		padding: 8px;
+	}
+/*..........END MAIN AREA........*/
+
+/*..........START SECTION LEFT........*/
+	.wrapper {
+		width: auto;
+		clear: both;
+	}
+	section#right {
+	    width: 90%;
+	    display:inline;
+	    float:left;
+	}
+	section#left {
+	    display: inline;
+	    float: none;
+	}
+	.text-testimonial {
+		font-size: 2.5vw;
+		padding: 5% 6%;
+	}
+	section #wrapper-testimonial {
+		margin: 0px 0px 30px;
+	}
+	section h2#testimonial_h2 {
+		font-size: 2.5vw;
+	}
+	section p.author {
+		font-size: 2.5vw;
+		padding:3% 10%;
+	}
+	section .shape {
+		display: none;
+	}
+	section .video-left {
+		text-align:center;
+		width: 100%;
+		margin: 0;
+	}
+	.video-left h2 {
+		font-size: 3.5vw;
+		width: auto;
+	}
+	iframe {
+		width: 80%;
+		height: 400px;
+		padding: 0 0 5% 0;
+	}
+/*..........END SECTION LEFT........*/
+
+/*..........START SECTION RIGHT........*/
+
+	section#right h2 {
+		font-size: 3.5vw;
+		text-align: center;
+		padding: 0px 0px 2%;
+		width: auto;
+	}
+	
+	#info-asterix p {
+		font-size: 2vw;
+	}
+	article {
+		font-size: 2.7vw;
+		line-height: 1.6;
+		width: auto;
+	}
+	section#right h2 {	
+	}
+	h2.title-right {
+		text-align:center;
+		width: 100%;
+		font-size: 5vw;
+	}
+	table td, table td.asterix, table td.checked, table td.unchecked {
+		font-size: 2.5vw;
+	}
+
+
+/*..........START AWARDS........*/
+
+	h2.awards {
+		font-size: 3vw;
+	}
+	.carousel-container {
+		width: 80%;
+	}
+	#carousel .award {
+		width: auto !important;
+		height: auto !important;
+		padding: 0 0 5px 0;
+	}
+	#carousel .award img {
+		display: block;
+		width: 85%;
+		height: auto;
+		margin: 0 auto;
+	}
+	.wrapper-awards {
+		padding-bottom: 50px;
+	}
+	.owl-theme .owl-controls {
+		vertical-align: middle !important;
+	}
+
+/*..........END AWARDS........*/
+
+/*..........START FOOTER......*/
+
+	footer .logo-footer {
+		/*padding: 34px 17px;*/
+	}
+	footer {
+		height: auto;
+	}
+/*..........END FOOTER......*/
+	
+}
+
+/*......END Medium devices (desktops, tablets 768px and up)......... */
+
+
+/*.........Minimum resolutions devices (smartphones, tablets -  240px and up)......... */
+@media only screen and (min-width: 240px) and (max-width:767px) {
+	
+	header {
+		height: 140px;
+	}
+	.container {
+		width: auto;
+		clear: both;
+	}
+	header #logo {
+		margin: 0 auto;
+		padding: 0;
+		float: none;
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	header #phone, header #phone h1, header #phone p {
+		padding: 0;
+		float:none;
+		margin: 0 auto;
+		width: 100%;
+		display: block;
+		text-align:center;
+	}
+/*..........END HEADER........*/
+
+/*..........START MAIN AREA........*/
+	.main-info {
+		width: auto;
+		height: auto;
+	}
+	.main-text {
+		display: inline;
+		width: 100%;
+		padding:3%
+	}
+	h1#extrabold {
+	    width: 100%;
+	    font-size: 20px;
+	    font-size: 6vw;
+	    margin: -5px 0 0 0;
+	    text-align:center;
+	    line-height: 1.5;
+	}
+	h2#bold {
+	    width: 100%;
+	    font-size: 6vw;
+	    display: inline-block;
+	    text-align:center;
+	    line-height: 1.5;
+	    margin: 0 auto;
+	}
+	h3 {
+	    width: 100%;
+	    font-size: 6vw;
+	    display: inline-block;
+	    text-align:center;
+	    line-height: 1.5;
+	}
+
+	.list {
+	    font-size: 3.95vw;
+	    color: #FFF;
+	    width: 90%;
+	    padding:7% 0% 6% 7%;
+	    list-style-image: url("images/check.png");
+	    line-height: 10;
+	}
+	.list ul {
+		line-height: 36px;
+	}
+	.main-text #amount {
+	    line-height: 2;
+	    vertical-align: middle;
+	    line-height: 1.5;
+	    font-size: 12vw;
+	    margin: 0;
+	    padding: 0;
+	}
+	#form {
+		width: 100%;
+		height: 365px;
+		display: inline-block;
+		margin: 5% auto;
+	}
+
+	#form form input {
+		display:block;
+		width: 80%;
+		height: 35px;
+		padding: 0px 8px;
+		margin: 5px auto;
+		border:1px solid #c0c2c4;
+		border-radius:5px;
+		color: #888;
+		font-family: 'Lato', sans-serif;
+		font-weight: 400;
+		font-size: 14px;	
+	}
+	#form input[type="submit"] {
+		margin:13px auto;
+	}
+	#form input[type="submit"]:hover {
+		margin:13px auto;
+	}
+	#form h1 {
+		font-size: 5vw;
+		padding: 8px;
+	}
+/*..........END MAIN AREA........*/
+
+/*..........START SECTION LEFT........*/
+	.wrapper {
+		width: auto;
+		clear: both;
+	}
+	section#right {
+
+	    display:inline;
+	    float:none;
+	}
+	section#left {
+	    display: inline;
+	    float: none;
+	}
+	.text-testimonial {
+		font-size: 4.0vw;
+		padding: 5% 6%;
+	}
+	section #wrapper-testimonial {
+		margin: -5px 0px 30px;
+		height: auto;
+	}
+	section h2#testimonial_h2 {
+		font-size: 4.5vw;
+		padding: 5px;
+	}
+	.text-testimonial::before {
+		font-size: 11vw;
+		position:absolute;
+		margin:-10% 0;
+	}
+	.text-testimonial::after {
+		font-size: 11vw;
+		position:absolute;
+		margin:10% -5%;
+	}
+	.owl-pagination {
+		margin-top: -20% !important;
+		padding: 0% 0% 5% 0%;
+	}
+	section p.author {
+		font-size: 4.2vw;
+		padding: 14% 6%
+	}
+	section .shape {
+		display: none;
+	}
+	section .video-left {
+		text-align:center;
+		width: 100%;
+		margin: 0;
+	}	
+	h2.title {
+		text-align: center;
+		font-size: 5vw;
+		width: auto;
+	}
+	iframe {
+		width: 90%;
+		height: 300px;
+		padding: 0 0 5% 0;
+	}
+/*..........END SECTION LEFT........*/
+
+/*..........START SECTION RIGHT........*/
+
+	#info-asterix p {
+		font-size: 3.0vw;
+	}
+	article {
+		font-size: 4vw;
+		line-height: 1.6;
+		margin: 0px 15px 0 22px;
+		width: 90%;
+	}
+	table td, table td.asterix, table td.checked, table td.unchecked {
+		font-size: 3.85vw;
+		padding: 0;
+	}
+	table td.att img, td.verizon img, td.towerstream img {
+		width:75%;
+		padding: 0;
+	}
+	table td.att img {
+		padding: 8px;
+	}
+	table td.verizon img {
+		padding: 8px 0 20px 10px; 
+	}
+	table td.towerstream img {
+		padding: 8px;
+	}
+	h2.title-right {
+		text-align:center;
+		width: 100%;
+		font-size: 5vw;
+	}
+/*..........START AWARDS........*/
+
+	h2.awards {
+		font-size: 4.5vw;
+	}
+	.carousel-container {
+		width: 80%;
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-next {
+		display: inline-block;
+	}
+	#carousel .award {
+		width: auto !important;
+		height: auto !important;
+		padding: 0;
+	}
+	#carousel .award img {
+		display: block;
+		width: 70%;
+		height: 90px;
+		margin: 0 auto;
+	}
+	.wrapper-awards {
+		padding-bottom: 10%;
+		margin-top: 10%;
+	}
+	.owl-theme .owl-controls {
+		vertical-align: middle !important;
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-prev {
+		vertical-align: middle !important;
+	}
+	footer {
+		height: auto;
+	}
+	footer p {
+		text-align: center;
+		display: block;
+		padding: 2%;
+	}
+	footer .logo-footer {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+/*..........END AWARDS........*/
+ }
